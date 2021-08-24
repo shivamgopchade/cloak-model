@@ -1,0 +1,2 @@
+# cloak-model
+ Cloak is a famous HARRY POTTER cloth which makes a person invisible anyone who wears it.First color detection model is used to find a color in an image which needs to be seperated (in our case red).We mask it and find inverse masked portion of live frame.Part of frame which is clicked at start of code is taken out from the same mask and then we perform 'or' operation to form a single image.
